@@ -116,7 +116,7 @@ export default {
   margin: 0;
 }
 
-.vab-button-subscribe:hover,
+.vab-button-subscribe:hover .vab-button-subscribe__label,
 .vab-button-subscribe:focus .vab-button-subscribe__label {
   margin: 0 0 0 1.5rem;
   transition: margin var(--duration) var(--bounce);
@@ -199,7 +199,7 @@ export default {
   }
 }
 
-.vab-button-subscribe:hover,
+.vab-button-subscribe:hover .vab-button-subscribe__icon__bell,
 .vab-button-subscribe:focus .vab-button-subscribe__icon__bell {
   animation: icon-bell calc(var(--duration) + var(--duration) / 2);
   animation-delay: calc(var(--duration) / 3);
@@ -223,7 +223,7 @@ export default {
   }
 }
 
-.vab-button-subscribe:hover,
+.vab-button-subscribe:hover .vab-button-subscribe__icon__clapper,
 .vab-button-subscribe:focus .vab-button-subscribe__icon__clapper {
   animation: icon-clapper calc(var(--duration) + var(--duration) / 2);
   animation-delay: calc(var(--duration) / 3);

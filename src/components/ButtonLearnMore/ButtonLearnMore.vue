@@ -71,7 +71,7 @@ export default {
   }
 }
 
-.vab-button-learn-more:hover,
+.vab-button-learn-more:hover > .vab-button-learn-more__label,
 .vab-button-learn-more:focus > .vab-button-learn-more__label {
   animation: label-shake var(--duration) infinite;
 }

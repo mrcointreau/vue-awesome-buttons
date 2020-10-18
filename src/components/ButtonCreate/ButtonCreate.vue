@@ -186,7 +186,7 @@ export default {
   }
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__ripple,
 .vab-button-create:focus > .vab-button-create__ripple {
   animation: ripple;
   animation-duration: var(--duration);
@@ -205,13 +205,13 @@ export default {
   }
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__icon,
 .vab-button-create:focus > .vab-button-create__icon {
   animation: icon var(--duration);
   animation-fill-mode: forwards;
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__label,
 .vab-button-create:focus > .vab-button-create__label {
   margin: 0 0 0 1.5rem;
   transition: margin var(--duration) var(--bounce);

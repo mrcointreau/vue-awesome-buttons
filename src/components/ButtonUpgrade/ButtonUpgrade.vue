@@ -119,20 +119,20 @@ export default {
   transition: top var(--duration) ease-in-out;
 }
 
-.vab-button-upgrade:hover,
+.vab-button-upgrade:hover > .vab-button-upgrade__ripple,
 .vab-button-upgrade:focus > .vab-button-upgrade__ripple {
   opacity: 0.3;
   transition: opacity var(--duration) ease-in-out;
 }
 
-.vab-button-upgrade:hover,
+.vab-button-upgrade:hover > .vab-button-upgrade__icon,
 .vab-button-upgrade:focus > .vab-button-upgrade__icon {
   top: -0.1rem;
   opacity: 1;
   transition: top var(--duration) ease-in-out, opacity var(--duration) ease-in-out;
 }
 
-.vab-button-upgrade:hover,
+.vab-button-upgrade:hover > .vab-button-upgrade__label,
 .vab-button-upgrade:focus > .vab-button-upgrade__label {
   transform: scale(1.2);
   transition: transform var(--duration) ease-in-out;

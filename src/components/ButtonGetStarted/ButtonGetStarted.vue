@@ -61,13 +61,13 @@ export default {
   border-radius: 2rem;
 }
 
-.vab-button-get-started:hover,
+.vab-button-get-started:hover > .vab-button-start__label,
 .vab-button-get-started:focus > .vab-button-start__label {
   transform: scale(1.2);
   transition: transform var(--duration) ease-in-out;
 }
 
-.vab-button-get-started:hover,
+.vab-button-get-started:hover > .vab-button-start__ripple,
 .vab-button-get-started:focus > .vab-button-start__ripple {
   right: 0.2rem;
   opacity: 20%;
