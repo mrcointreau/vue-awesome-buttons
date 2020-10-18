@@ -29,9 +29,8 @@ export default {
 
   position: relative;
   border: none;
-  border-radius: 0.2rem;
-  padding: 0.8rem 2rem;
-  font: inherit;
+  border-radius: 0.2em;
+  padding: 0.8em 2em;
 }
 
 .vab-button-learn-more__label {
@@ -71,7 +70,7 @@ export default {
   }
 }
 
-.vab-button-learn-more:hover,
+.vab-button-learn-more:hover > .vab-button-learn-more__label,
 .vab-button-learn-more:focus > .vab-button-learn-more__label {
   animation: label-shake var(--duration) infinite;
 }

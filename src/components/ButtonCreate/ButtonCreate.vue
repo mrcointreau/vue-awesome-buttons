@@ -84,10 +84,9 @@ export default {
   position: relative;
   transition: width var(--duration) var(--bounce);
   border: none;
-  border-radius: 2rem;
-  padding: 0.8rem 2rem;
+  border-radius: 2em;
+  padding: 0.8em 2em;
   width: var(--width);
-  font: inherit;
 }
 
 @keyframes ripple-reverse {
@@ -103,9 +102,9 @@ export default {
     --radius: calc(var(--height) / 2);
 
     top: calc(var(--height) / 2 - var(--radius));
-    right: calc((var(--width) + 2rem) / 2 - var(--radius));
+    right: calc((var(--width) + 2em) / 2 - var(--radius));
     bottom: calc(var(--height) / 2 - var(--radius));
-    left: calc((var(--width) + 2rem) / 2 - var(--radius));
+    left: calc((var(--width) + 2em) / 2 - var(--radius));
   }
 
   100% {
@@ -122,7 +121,7 @@ export default {
   opacity: 0.3;
   animation: ripple-reverse var(--duration);
   animation-fill-mode: forwards;
-  border-radius: 2rem;
+  border-radius: 2em;
   background-color: #000;
 }
 
@@ -145,8 +144,8 @@ export default {
   transform: translate(-50%, -50%) scale(0) rotate(0);
   animation: icon-reverse var(--duration);
   animation-fill-mode: forwards;
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.2em;
+  height: 1.2em;
 }
 
 .vab-button-create__label {
@@ -160,7 +159,7 @@ export default {
 .vab-button-create:hover,
 .vab-button-create:focus {
   transition: width var(--duration) var(--bounce);
-  width: calc(var(--width) + 2rem);
+  width: calc(var(--width) + 2em);
 }
 
 @keyframes ripple {
@@ -172,9 +171,9 @@ export default {
     --radius: calc(var(--height) / 2);
 
     top: calc(var(--height) / 2 - var(--radius));
-    right: calc((var(--width) + 2rem) / 2 - var(--radius));
+    right: calc((var(--width) + 2em) / 2 - var(--radius));
     bottom: calc(var(--height) / 2 - var(--radius));
-    left: calc((var(--width) + 2rem) / 2 - var(--radius));
+    left: calc((var(--width) + 2em) / 2 - var(--radius));
   }
 
   100% {
@@ -186,7 +185,7 @@ export default {
   }
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__ripple,
 .vab-button-create:focus > .vab-button-create__ripple {
   animation: ripple;
   animation-duration: var(--duration);
@@ -205,15 +204,15 @@ export default {
   }
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__icon,
 .vab-button-create:focus > .vab-button-create__icon {
   animation: icon var(--duration);
   animation-fill-mode: forwards;
 }
 
-.vab-button-create:hover,
+.vab-button-create:hover > .vab-button-create__label,
 .vab-button-create:focus > .vab-button-create__label {
-  margin: 0 0 0 1.5rem;
+  margin: 0 0 0 1.5em;
   transition: margin var(--duration) var(--bounce);
 }
 </style>
