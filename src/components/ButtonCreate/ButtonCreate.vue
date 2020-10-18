@@ -87,7 +87,6 @@ export default {
   border-radius: 2rem;
   padding: 0.8rem 2rem;
   width: var(--width);
-  font: inherit;
 }
 
 @keyframes ripple-reverse {

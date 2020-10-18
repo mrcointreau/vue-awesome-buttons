@@ -33,7 +33,6 @@ export default {
   border: none;
   border-radius: 0.2rem;
   padding: 0.8rem 2rem;
-  font: inherit;
 }
 
 .vab-button-start__ripple {
