@@ -64,8 +64,8 @@ export default {
   top: 0;
   transition: top var(--duration) ease-in-out;
   border: none;
-  border-radius: 0.2rem;
-  padding: 0.8rem 2rem;
+  border-radius: 0.2em;
+  padding: 0.8em 2em;
 }
 
 .vab-button-upgrade__pocket {
@@ -100,8 +100,8 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: top var(--duration) ease-in-out;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .vab-button-upgrade__label {
@@ -114,7 +114,7 @@ export default {
 
 .vab-button-upgrade:hover,
 .vab-button-upgrade:focus {
-  top: -0.1rem;
+  top: -0.1em;
   transition: top var(--duration) ease-in-out;
 }
 
@@ -126,7 +126,7 @@ export default {
 
 .vab-button-upgrade:hover > .vab-button-upgrade__icon,
 .vab-button-upgrade:focus > .vab-button-upgrade__icon {
-  top: -0.1rem;
+  top: -0.1em;
   opacity: 1;
   transition: top var(--duration) ease-in-out, opacity var(--duration) ease-in-out;
 }

@@ -31,20 +31,20 @@ export default {
   position: relative;
   transition: border-radius var(--duration) ease-in-out;
   border: none;
-  border-radius: 0.2rem;
-  padding: 0.8rem 2rem;
+  border-radius: 0.2em;
+  padding: 0.8em 2em;
 }
 
 .vab-button-start__ripple {
   position: absolute;
-  top: 0.2rem;
+  top: 0.2em;
   right: 100%;
-  bottom: 0.2rem;
-  left: 0.2rem;
+  bottom: 0.2em;
+  left: 0.2em;
   opacity: 0;
   transition: right var(--duration) ease-in-out, opacity var(--duration) ease-in-out,
     border-radius var(--duration) ease-in-out;
-  border-radius: 0.2rem;
+  border-radius: 0.2em;
   background-color: #fff;
 }
 
@@ -57,7 +57,7 @@ export default {
 .vab-button-get-started:hover,
 .vab-button-get-started:focus {
   transition: border-radius var(--duration) ease-in-out;
-  border-radius: 2rem;
+  border-radius: 2em;
 }
 
 .vab-button-get-started:hover > .vab-button-start__label,
@@ -68,10 +68,10 @@ export default {
 
 .vab-button-get-started:hover > .vab-button-start__ripple,
 .vab-button-get-started:focus > .vab-button-start__ripple {
-  right: 0.2rem;
+  right: 0.2em;
   opacity: 20%;
   transition: right var(--duration) ease-in-out, opacity var(--duration) ease-in-out,
     border-radius var(--duration) ease-in-out;
-  border-radius: 2rem;
+  border-radius: 2em;
 }
 </style>

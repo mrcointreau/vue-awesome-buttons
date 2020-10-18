@@ -29,8 +29,8 @@ export default {
 
   position: relative;
   border: none;
-  border-radius: 0.2rem;
-  padding: 0.8rem 2rem;
+  border-radius: 0.2em;
+  padding: 0.8em 2em;
 }
 
 .vab-button-learn-more__label {

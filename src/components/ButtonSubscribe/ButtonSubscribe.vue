@@ -90,23 +90,23 @@ export default {
   position: relative;
   transition: width var(--duration) var(--bounce);
   border: none;
-  border-radius: 2rem;
-  padding: 0.8rem 2rem;
+  border-radius: 2em;
+  padding: 0.8em 2em;
   width: var(--width);
 }
 
 .vab-button-subscribe:hover,
 .vab-button-subscribe:focus {
   transition: width var(--duration) var(--bounce);
-  width: calc(var(--width) + 2rem);
+  width: calc(var(--width) + 2em);
 }
 
 .vab-button-subscribe__icon {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 2.3em;
+  height: 2.3em;
 }
 
 .vab-button-subscribe__label {
@@ -117,7 +117,7 @@ export default {
 
 .vab-button-subscribe:hover .vab-button-subscribe__label,
 .vab-button-subscribe:focus .vab-button-subscribe__label {
-  margin: 0 0 0 1.5rem;
+  margin: 0 0 0 1.5em;
   transition: margin var(--duration) var(--bounce);
 }
 
