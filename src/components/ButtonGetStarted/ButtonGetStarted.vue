@@ -69,7 +69,7 @@ export default {
 .vab-button-get-started:hover > .vab-button-start__ripple,
 .vab-button-get-started:focus > .vab-button-start__ripple {
   right: 0.2em;
-  opacity: 20%;
+  opacity: 0.2;
   transition: right var(--duration) ease-in-out, opacity var(--duration) ease-in-out,
     border-radius var(--duration) ease-in-out;
   border-radius: 2em;
