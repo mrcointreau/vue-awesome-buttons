@@ -1,10 +1,12 @@
 # vue-awesome-buttons
 
-Awesome Vue.js button components inspired by [this reddit post]()
+> Awesome Vue.js button components.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45950216/96180354-98b96380-0f32-11eb-8964-cd02850f5270.gif">
 </p>
+
+Try out the [demo](https://mrcointreau.github.io/vue-awesome-buttons/)!
 
 ## Install
 
